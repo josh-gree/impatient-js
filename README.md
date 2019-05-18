@@ -55,7 +55,7 @@ console.error("this is an error")
 - operators
 
 
-```
+```javascript
 // logical 
 true && false // AND
 true || false // OR
