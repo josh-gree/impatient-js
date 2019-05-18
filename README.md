@@ -6,7 +6,7 @@ Notes on reading [impatient-js](http://exploringjs.com/impatient-js/index.html)
 
 ### Basics
 
-#### comments
+- comments
 
 ```
 // single-line comment
@@ -16,8 +16,6 @@ Comment with
 multiple lines
 */
 ```
-
-#### primitives
 
 - bools
 
