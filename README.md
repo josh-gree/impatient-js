@@ -8,7 +8,7 @@ Notes on reading [impatient-js](http://exploringjs.com/impatient-js/index.html)
 
 - comments
 
-```
+```javascript
 // single-line comment
 
 /*
@@ -19,27 +19,27 @@ multiple lines
 
 - bools
 
-```
+```javascript
 true
 false
 ```
 
 - numbers
-```
+```javascript
 1
 1.3
 -23
 ```
 
 - strings - js has no char type!
-```
+```javascript
 'bob'
 "jim"
 ```
 
 - assertions
 
-```
+```javascript
 assert.equal(7+1,8)
 ```
 
@@ -47,7 +47,7 @@ assert.equal(7+1,8)
 
 - logging to console - both `log` and `error` seem to do same thing in node repl...
 
-```
+```javascript
 console.log("hello")
 console.error("this is an error")
 ```
@@ -79,7 +79,7 @@ assert.equal(3 + " bobs","3 bobs") // crazy JS type conversion!
 
 - variable declaration
 
-```
+```javascript
 let x // mutable declaration
 x = 23 // assignment
 
@@ -91,14 +91,14 @@ const z // SyntaxError: Missing initializer in const declaration
 
 - `let` vs `var`
 
-```
+```javascript
 for(var i=0; i<10; i++){
     console.log(i)
 }
 console.log(i) // this will log 10 `i` is still in scope
 ```
 
-```
+```javascript
 for(let i=0; i<10; i++){
     console.log(i)
 }
@@ -107,7 +107,7 @@ console.log(i) // ReferenceError: i is not defined
 
 - control flow
 
-```
+```javascript
 if (x < 0) {
     x = -x;
 } // condition must be in parenthesis
@@ -115,7 +115,7 @@ if (x < 0) {
 
 - function def
 
-```
+```javascript
 function foo(a,b) {
     return a+b
 }
@@ -123,13 +123,13 @@ function foo(a,b) {
 
 - arrow functions
 
-```
+```javascript
 foo1 = (a,b) => a+b
 foo2 = (a,b) => {return a+b}
 ```
 
 - objects - mix of attributes and methods (like a class?)
-```
+```javascript
 obj = {
     first: "bob",
     last: "bobson",
